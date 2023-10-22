@@ -37,6 +37,7 @@ html {
 .header_logo span {
     font-size: 2.4rem;
     cursor: default;
+    color: #DEB887;
 }
 .header_logo img {
     width: 52px;
@@ -140,4 +141,54 @@ html {
 
 #content {
     height: 3000px;
+}
+
+.team {
+    height: 500px;
+    background-color: rgba(177, 160, 115, 0.4);
+    background-color: #DEB887;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 64px;
+}
+.team_title {
+    font-size: 48px;
+    color: #fff;
+    margin: 20px 0;
+}
+.team_list {
+    list-style-type: none;
+    /* display: none; */
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+.member {
+}
+.member_image {
+    width: 220px;
+    background-color: rgba(129, 131, 153, 0.4);
+    background-color: #5C5863;
+    border: 10px solid #fff;
+    border-radius: 30px;
+    box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.member_image:hover {
+    transform: translateY(2px);
+    box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.member_info {
+    text-align: center;
+    color: #343750;
+    color: #ffffff;
+}
+.member_info-name {
+    margin-top: 4px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.member_info-description {
+    font-size: 1.2rem;
+    margin-top: 6px;
 }
