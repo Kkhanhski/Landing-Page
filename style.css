@@ -7,6 +7,7 @@
 html {
     font-family: 'Titan One', sans-serif;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 #main {
@@ -84,6 +85,7 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+    border-bottom: 2px solid #000;
 }
 .header-info_container {
     width: 800px;
@@ -120,10 +122,9 @@ html {
     border: none;
     border-radius: 3px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
-
-}
-.header-info_container-text button:hover {
     cursor: pointer;
+}
+.header-info_container-text button:active {
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.09);
     transform: translateY(1px);
 }
@@ -151,6 +152,7 @@ html {
     align-items: center;
     flex-direction: column;
     padding: 32px 64px;
+    border-bottom: 2px solid #000;
 }
 .team_title {
     font-size: 48px;
