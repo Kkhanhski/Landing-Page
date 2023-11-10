@@ -264,6 +264,8 @@ html {
     gap: 12px;
     background-color: rgba(222, 184, 135, 0.4);
     background-color: rgba(129, 131, 153, 0.4);
+    border-bottom: 2px solid #000;
+
 }
 .about_text {
     font-size: 1.8rem;
@@ -278,4 +280,37 @@ html {
     align-self: end;
     font-size: 2.6rem;
     color: #584242;
+}
+
+/* contact */
+.contact {
+    background: url('./image/background/Untitled_5.1.1.jpg') no-repeat center / cover;
+    filter:saturate(0.25);
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    gap: 30px;
+    border-bottom: 2px solid #000;
+}
+.contact_title {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.contact_list {
+    list-style-type: none;
+}
+.contact_list-item {
+    font-size: 2rem;
+}
+.contact_list-item i {
+    color: #fff;
+    margin-right: 12px;
+}
+.contact_list-item a {
+    color: #fff;
+    text-decoration: none;
 }
